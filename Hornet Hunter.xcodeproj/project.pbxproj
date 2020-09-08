@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0364EC24EECCC000B96E3F /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0364EB24EECCC000B96E3F /* MainMenuScene.swift */; };
+		4F0364EE24EEDC6100B96E3F /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F0364ED24EEDC6100B96E3F /* backgroundMusic.mp3 */; };
 		4F16C80324D0BC7400303B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16C80224D0BC7400303B8E /* AppDelegate.swift */; };
 		4F16C80524D0BC7400303B8E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C80424D0BC7400303B8E /* GameScene.sks */; };
 		4F16C80724D0BC7400303B8E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C80624D0BC7400303B8E /* Actions.sks */; };
@@ -15,9 +17,19 @@
 		4F16C80E24D0BC7400303B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C80C24D0BC7400303B8E /* Main.storyboard */; };
 		4F16C81024D0BC7500303B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C80F24D0BC7500303B8E /* Assets.xcassets */; };
 		4F16C81324D0BC7500303B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C81124D0BC7500303B8E /* LaunchScreen.storyboard */; };
+		4F73274424EB2B79005ABBB4 /* zap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F73274324EB2B79005ABBB4 /* zap.wav */; };
+		4F85F96824E733D800945155 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F85F96724E733D700945155 /* explosion.wav */; };
+		4FBD229624E5BDF300DE7C40 /* pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD229524E5BDF300DE7C40 /* pew.wav */; };
+		4FC14D7C24F0364100A9C5B3 /* healthPlusSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4FC14D7B24F0364100A9C5B3 /* healthPlusSound.wav */; };
+		4FD0CA3824EC27AE00CD1ABD /* KOMIKAX_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0CA3724EC27AE00CD1ABD /* KOMIKAX_.ttf */; };
+		4FEE035724EDC3B3009AFC5B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE035624EDC3B3009AFC5B /* GameOverScene.swift */; };
+		7315735EA58F65D645C2D5E1 /* Pods_Hornet_Hunter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB5597C77AF6ED04615BD6B /* Pods_Hornet_Hunter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171A34EA11289AC04B241A9D /* Pods-Hornet Hunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hornet Hunter.debug.xcconfig"; path = "Target Support Files/Pods-Hornet Hunter/Pods-Hornet Hunter.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0364EB24EECCC000B96E3F /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		4F0364ED24EEDC6100B96E3F /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 		4F16C7FF24D0BC7400303B8E /* Hornet Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hornet Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F16C80224D0BC7400303B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F16C80424D0BC7400303B8E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +40,14 @@
 		4F16C80F24D0BC7500303B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F16C81224D0BC7500303B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F16C81424D0BC7500303B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F73274324EB2B79005ABBB4 /* zap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = zap.wav; sourceTree = "<group>"; };
+		4F85F96724E733D700945155 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		4FBD229524E5BDF300DE7C40 /* pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pew.wav; sourceTree = "<group>"; };
+		4FC14D7B24F0364100A9C5B3 /* healthPlusSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = healthPlusSound.wav; sourceTree = "<group>"; };
+		4FD0CA3724EC27AE00CD1ABD /* KOMIKAX_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KOMIKAX_.ttf; sourceTree = "<group>"; };
+		4FEE035624EDC3B3009AFC5B /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AF3FA694A061C04BD172149E /* Pods-Hornet Hunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hornet Hunter.release.xcconfig"; path = "Target Support Files/Pods-Hornet Hunter/Pods-Hornet Hunter.release.xcconfig"; sourceTree = "<group>"; };
+		FEB5597C77AF6ED04615BD6B /* Pods_Hornet_Hunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hornet_Hunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7315735EA58F65D645C2D5E1 /* Pods_Hornet_Hunter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +67,8 @@
 			children = (
 				4F16C80124D0BC7400303B8E /* Hornet Hunter */,
 				4F16C80024D0BC7400303B8E /* Products */,
+				DE444FFE0DB2A1766874AD91 /* Pods */,
+				EF2A0CA9B2EAD5CAB09FD66C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,13 +87,38 @@
 				4F16C80424D0BC7400303B8E /* GameScene.sks */,
 				4F16C80624D0BC7400303B8E /* Actions.sks */,
 				4F16C80824D0BC7400303B8E /* GameScene.swift */,
+				4FEE035624EDC3B3009AFC5B /* GameOverScene.swift */,
+				4F0364EB24EECCC000B96E3F /* MainMenuScene.swift */,
 				4F16C80A24D0BC7400303B8E /* GameViewController.swift */,
 				4F16C80C24D0BC7400303B8E /* Main.storyboard */,
+				4FBD229524E5BDF300DE7C40 /* pew.wav */,
+				4F85F96724E733D700945155 /* explosion.wav */,
+				4F73274324EB2B79005ABBB4 /* zap.wav */,
+				4FC14D7B24F0364100A9C5B3 /* healthPlusSound.wav */,
+				4F0364ED24EEDC6100B96E3F /* backgroundMusic.mp3 */,
+				4FD0CA3724EC27AE00CD1ABD /* KOMIKAX_.ttf */,
 				4F16C80F24D0BC7500303B8E /* Assets.xcassets */,
 				4F16C81124D0BC7500303B8E /* LaunchScreen.storyboard */,
 				4F16C81424D0BC7500303B8E /* Info.plist */,
 			);
 			path = "Hornet Hunter";
+			sourceTree = "<group>";
+		};
+		DE444FFE0DB2A1766874AD91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				171A34EA11289AC04B241A9D /* Pods-Hornet Hunter.debug.xcconfig */,
+				AF3FA694A061C04BD172149E /* Pods-Hornet Hunter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF2A0CA9B2EAD5CAB09FD66C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5597C77AF6ED04615BD6B /* Pods_Hornet_Hunter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F16C81724D0BC7500303B8E /* Build configuration list for PBXNativeTarget "Hornet Hunter" */;
 			buildPhases = (
+				73A2F17E913D6639860CB92A /* [CP] Check Pods Manifest.lock */,
 				4F16C7FB24D0BC7400303B8E /* Sources */,
 				4F16C7FC24D0BC7400303B8E /* Frameworks */,
 				4F16C7FD24D0BC7400303B8E /* Resources */,
+				DB0E9CBBADCA8785110FF110 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,22 +182,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F16C80E24D0BC7400303B8E /* Main.storyboard in Resources */,
+				4FD0CA3824EC27AE00CD1ABD /* KOMIKAX_.ttf in Resources */,
 				4F16C80524D0BC7400303B8E /* GameScene.sks in Resources */,
+				4F85F96824E733D800945155 /* explosion.wav in Resources */,
 				4F16C81024D0BC7500303B8E /* Assets.xcassets in Resources */,
+				4FC14D7C24F0364100A9C5B3 /* healthPlusSound.wav in Resources */,
 				4F16C81324D0BC7500303B8E /* LaunchScreen.storyboard in Resources */,
+				4FBD229624E5BDF300DE7C40 /* pew.wav in Resources */,
+				4F73274424EB2B79005ABBB4 /* zap.wav in Resources */,
+				4F0364EE24EEDC6100B96E3F /* backgroundMusic.mp3 in Resources */,
 				4F16C80724D0BC7400303B8E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73A2F17E913D6639860CB92A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hornet Hunter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0E9CBBADCA8785110FF110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hornet Hunter/Pods-Hornet Hunter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hornet Hunter/Pods-Hornet Hunter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hornet Hunter/Pods-Hornet Hunter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F16C7FB24D0BC7400303B8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0364EC24EECCC000B96E3F /* MainMenuScene.swift in Sources */,
 				4F16C80924D0BC7400303B8E /* GameScene.swift in Sources */,
 				4F16C80B24D0BC7400303B8E /* GameViewController.swift in Sources */,
+				4FEE035724EDC3B3009AFC5B /* GameOverScene.swift in Sources */,
 				4F16C80324D0BC7400303B8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,15 +390,18 @@
 		};
 		4F16C81824D0BC7500303B8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171A34EA11289AC04B241A9D /* Pods-Hornet Hunter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B4WAVN96L;
 				INFOPLIST_FILE = "Hornet Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hawktech.Hornet-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -308,15 +411,18 @@
 		};
 		4F16C81924D0BC7500303B8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3FA694A061C04BD172149E /* Pods-Hornet Hunter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B4WAVN96L;
 				INFOPLIST_FILE = "Hornet Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hawktech.Hornet-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
